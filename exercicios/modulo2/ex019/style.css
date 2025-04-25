@@ -4,18 +4,36 @@
     em HTML é class = em CSS é .
 */
 body{ 
-    background-color: rgb(166, 255, 166);
+    background-color: #09E2B7;
     font-family: Arial, Helvetica, sans-serif;
 }
 h1{
-    color: rgb(56, 200, 4);
+    color: #057C64;
+}
+
+h2{
+    color: #069E80;
 }
 
 #principal{
     text-align: center;
-    background-color: rgb(56, 200, 4);
+    background-color: #045A49;
     color: white;
 }
-h2{
-    color: rgb(56, 200, 100);
+
+.basico{
+    color: #069E80;
+    font-weight: bold;
+}
+
+.intermediario{
+    color: #999e06;
+}
+
+.avancado{
+    color: #9e0606;
+}
+
+.destaque{
+    background-color: #fbfb4879;
 }
