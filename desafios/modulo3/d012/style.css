@@ -9,9 +9,10 @@
     box-sizing: border-box;
 }
 
-body{
+html, body{
+    min-height: 100vh;
     font-family: "Sriracha", cursive;
-    background: black url(imagens/background002.jpg) center center/cover no-repeat fixed;
+    background: darkgray;
 }
 
 header{
@@ -41,27 +42,39 @@ main{
     background-color: white;
     max-width: 800px;
     margin: auto;
+    margin-bottom: 30px;
+    border-radius: 0px 0px 10px 10px;
 }
 
 main p{
     padding: 12px;
     padding-top: 30px;
-    max-width: 225px;
     font-size: 1.1em;
 }
 
-#paralax{
+.paralax{
     margin: 30px 0px;
     width: 100%;
-    background: black url(imagens/background001.jpg) center right/cover no-repeat fixed;
+    background: black center right/cover no-repeat fixed;
     color: white;
     padding-top: 24px;
     padding-bottom: 24px;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.395);
 }
 
-#paralax > p{
-    background-color: ;
+.paralax > p{
     padding-top: 12px;
+    background-color: rgba(0, 0, 0, 0.329);
+    border-radius: 10px;
+    display: inline-block;
+}
+
+#img1{
+    background-image: url(imagens/background001.jpg)
+}
+
+#img2{
+    background-image: url(imagens/background002.jpg);
 }
 
 footer{
