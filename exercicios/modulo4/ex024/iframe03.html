@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframe</title>
+    <style>
+        body{
+           font-family: Arial, Helvetica, sans-serif; 
+        }
+        iframe{
+            width: 95vw;
+            height: 350px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id tempora dicta fuga inventore ullam, laboriosam similique culpa optio nemo, veritatis beatae expedita amet! Ipsa quidem totam, illum dolorem rerum unde.</p>
+    <ul>
+        <li><a href="pag01.html" target="principal">Primeira página</a></li>
+        <li><a href="/exercicios/modulo3/ex023/tabela06.html" target="principal">Segunda página</a></li>
+        <li><a href="/exercicios/modulo3/ex023/tabela05.html" target="principal">Terceira página</a></li>
+    </ul>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium corrupti excepturi provident vel. Expedita facilis dolor illo, quisquam rem ducimus, veniam odio facere repellat laboriosam nulla, molestias quam esse quasi?</p>
+
+    <iframe srcdoc="<h1>Escolha uma das paginas</h1> <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis aspernatur, voluptatibus vero ducimus minus magni voluptatum labore officia delectus fugiat consequatur quod nisi, quas quisquam obcaecati ad. Magni, molestias eos!</p>" frameborder="1" name="principal"></iframe>
+</body>
+</html>
